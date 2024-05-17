@@ -1,0 +1,161 @@
+/* Fonts */
+@font-face {
+  font-family: "Fena";
+  src: url(font/FENA.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+/* Classes */
+.big {
+  font-size: 150%;
+}
+
+.blue {
+  color:rgb(187, 235, 236);
+}
+
+.center {
+  text-align: center;
+}
+
+.centerImg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.clear {
+  color:cornsilk;
+}
+
+/* .collapsible-content {
+  display: none;
+  
+} */
+
+.content {
+  display: none;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.coverButton {
+  background-color: rgba(132, 176, 243, 0.4);
+  border-radius: 15px;
+}
+
+.portrait {
+  padding: 10px;
+  height: 35vh;
+  margin: auto;
+  display: block;
+}
+
+.p5sketch {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.social {
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  width: 10%;
+}
+
+/* IDs */
+#MC {
+  color:rgb(215, 242, 240);
+}
+
+/* Tags */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:rgb(187, 235, 236);
+}
+
+a:visited {
+  color:rgb(187, 235, 236);
+}
+
+footer {
+  font-family: sans-serif;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(243, 119, 4);
+  font-family: "Monoton", sans-serif;
+  font-weight: 40;
+  font-size: 10vh;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+h2 {
+  color:rgb(239, 234, 226);
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+h3 {
+  font-size: 5vh;
+  color:rgb(227, 143, 54);
+  font-family: sans-serif;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+h4 {
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+h6 {
+  color:rgb(205, 191, 173);
+  font-family: sans-serif;
+  margin: auto;
+  padding: 10px;
+}
+
+html {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, #634fff, #3d0367);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+p {
+  color: rgb(215, 242, 240);
+  font-family: sans-serif;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+ul {
+  color: cornsilk;
+  font-family: sans-serif;
+  list-style-type: "";
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
